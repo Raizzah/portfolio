@@ -1,2 +1,8 @@
-.cell{background: red; border: 1px solid green;}
-.auto{background: white; border: 1px solid blue;} /*for auto try to add a new class to customize it better*/
+/**{outline:1px solid red} /* the * means outline everything */
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text|Pontano+Sans');
+
+body{font-family: 'Crimson Text', serif;}
+
+h1,h2,h3,h4,h5,h6{font-family: 'Pontano Sans', sans-serif;}
+h2{font-size: 1.35rem;} /*root em, one M space is 16px, 1.35 means 135% of 16px*/
+p{line-height: 1.25em;}
